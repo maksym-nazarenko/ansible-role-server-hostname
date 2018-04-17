@@ -1,0 +1,6 @@
+---
+# tasks file for ansible-role-skeleton
+
+- name: Setting up the hostname
+  hostname:
+    name: "{{ server_hostname }}"
